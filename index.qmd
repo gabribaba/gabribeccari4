@@ -1,0 +1,220 @@
+---
+title: "Gabriele Beccari, PhD"
+html:
+  css: styles.css
+---
+
+Hello there! I am a Data Scientist with a strong background in economics, currently working in *Data Analytics and Governance* for Banca Popolare Etica, the largest Italian bank committed to the principles of Ethical Finance.
+
+I earned a PhD in Economics and Finance from the "Tor Vergata" University of Rome and completed a postdoctoral fellowship at the Scuola Normale Superiore.
+
+Originally from Florence and now based in Rome, I also spent one year in Ireland.
+
+::: {.callout-note .interests-box icon="true" title="Interests"}
+- Data visualization
+- Maps!! <i class="bi bi-map"></i>
+- Spatial econometrics
+- Ecological economics
+:::
+
+# Education {#titoliaccademici}
+
+```{=html}
+<div class="timeline-scaled">
+
+  <div class="timeline-block">
+    <!-- LHS: Dotted duration rectangle spanning start-to-end -->
+    <div class="timeline-lhs">
+      <div class="duration-rectangle">
+        <span class="start-year">2012</span>
+        <span class="duration-label">Laurea</span>
+        <span class="end-year">2016</span>
+      </div>
+    </div>
+    
+    <div class="timeline-rhs">
+      <div class="timeline-item minor">
+        <div class="timeline-marker"></div>
+        <div class="timeline-date">2014 - 2015<span class="hover-hint">✦ Hover</span></div>
+        <div class="timeline-minor-wrapper">
+          <div class="timeline-minor-inner">
+            <div class="timeline-content">
+              <h3 class="anchored">Erasmus+ Exchange Year</h3>
+              <p class="timeline-institution">University College Cork, Éire</p>
+              <p>Focus on macroeconomics and political economy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item major">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="anchored">Bachelor's Degree in Political Science</h3>
+          <p class="timeline-institution"><em>Scuola Cesare Alfieri</em><br>
+      University of Florence</p>
+          <p>110/110 Cum Laude</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-block">
+    <div class="timeline-lhs">
+      <div class="duration-rectangle">
+        <span class="start-year">2016</span>
+        <span class="duration-label">MSc Period</span>
+        <span class="end-year">2018</span>
+      </div>
+    </div>
+
+    <div class="timeline-rhs">
+      <div class="timeline-item major">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="anchored">Master of Science in Economics</h3>
+          <p class="timeline-institution"><em>Department of Economics and Finance</em><br>
+      Tor Vergata University of Rome</p>
+      <p>110/110 Cum Laude</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-block">
+    <!-- LHS: Dotted duration rectangle spanning start-to-end -->
+    <div class="timeline-lhs">
+      <div class="duration-rectangle">
+        <span class="start-year">2018</span>
+        <span class="duration-label">PhD period</span>
+        <span class="end-year">2023</span>
+      </div>
+    </div>
+    
+    <div class="timeline-rhs">
+      <div class="timeline-item minor">
+        <div class="timeline-marker"></div>
+        <div class="timeline-date">2022<span class="hover-hint">✦ Hover</span></div>
+        <div class="timeline-minor-wrapper">
+          <div class="timeline-minor-inner">
+            <div class="timeline-content">
+              <h3 class="anchored">Won postdoc fellowship</h3>
+              <p class="timeline-institution">Scuola Normale Superiore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item major">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="anchored">PhD in Economics and Finance</h3>
+          <p class="timeline-institution"><em>Department of Economics and Finance</em><br>
+      Tor Vergata University of Rome</p>
+          <p>Excellent Cum Laude</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+```
+
+
+
+# Skills for geeks {#geeks}
+
+:::{.panel-tabset}
+
+## Languages
+```{=html}
+<div class="skills-grid">
+  <!-- Python -->
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+    </div>
+    <span class="skill-name">Python</span>
+    <span class="skill-sub">Data Science & ML</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+
+  <!-- R -->
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" />
+    </div>
+    <span class="skill-name">R</span>
+    <span class="skill-sub">Econometrics & Stats</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+</div>
+```
+
+
+## Econometric & Spatial Software
+
+```{=html}
+<div class="skills-grid">
+  <!-- Stata -->
+  <div class="skill-card">
+    <div class="skill-icon stata-badge">
+      <span>STATA</span>
+    </div>
+    <span class="skill-name">Stata</span>
+    <span class="skill-sub">Econometrics & Stats</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+
+  <!-- QGIS -->
+  <div class="skill-card">
+    <div class="skill-icon qgis-badge">
+      <span>QGIS</span>
+    </div>
+    <span class="skill-name">QGIS</span>
+    <span class="skill-sub">GIS & Spatial Analysis</span>
+    <span class="skill-level-badge level-advanced">Intermediate</span>
+  </div>
+</div>
+```
+## Tools & Publishing
+
+
+```{=html}
+<div class="skills-grid">
+  <!-- LaTeX / TeX -->
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX" />
+    </div>
+    <span class="skill-name">LaTeX / TeX</span>
+    <span class="skill-sub">Academic Writing</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+
+  <!-- SQL -->
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL" />
+    </div>
+    <span class="skill-name">SQL</span>
+    <span class="skill-sub">Databases & Querying</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+
+  <!-- Git -->
+  <div class="skill-card">
+    <div class="skill-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+    </div>
+    <span class="skill-name">Git</span>
+    <span class="skill-sub">Version Control</span>
+    <span class="skill-level-badge level-advanced">Advanced</span>
+  </div>
+</div>
+```
+:::
+
+
+
+

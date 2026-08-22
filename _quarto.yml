@@ -1,0 +1,49 @@
+project:
+  type: website
+
+website:
+  sidebar:
+    style: "docked"
+    search: false
+    logo: IMG_5901.jpg
+    tools:
+      - icon: github
+        href: https://github.com/yourusername
+        aria-label: GitHub
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=yourid
+        aria-label: Google Scholar
+      - icon: person-vcard
+        href: https://orcid.org/0000-0000-0000-0000
+        aria-label: ORCID
+      - icon: linkedin
+        href: https://linkedin.com/in/yourusername
+        aria-label: LinkedIn
+    contents:
+      - text: "<div class='sidebar-profile-card'><div class='profile-title'>Data Scientist</div><div class='profile-affiliation'>Banca Popolare Etica</div></div>"
+  navbar:
+    search: true
+    background: primary
+    left:
+      - text: gabribeccari
+        href: index.qmd
+      - text: Education
+        icon: mortarboard
+        href: index.qmd#titoliaccademici
+      - text: Skills for geeks
+        href: index.qmd#geeks
+      - text: Curriculum vitae et studiorum
+        href: cv.qmd
+
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    include-before-body: free_palestine.html
+    toc: false
+
+editor: visual
+

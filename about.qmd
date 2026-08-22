@@ -1,0 +1,9 @@
+---
+title: "Intro"
+---
+
+Hello there! I am a Data Scientist with a strong background in economics, currently working in *Data Analytics and Governance* for Banca Popolare Etica, the largest Italian bank committed to the principles of Ethical Finance.
+
+I earned a PhD in Economics and Finance from the "Tor Vergata" University of Rome and completed a postdoctoral fellowship at the Scuola Normale Superiore.
+
+Originally from Florence and now based in Rome, I also spent one year in Ireland.

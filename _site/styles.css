@@ -1,0 +1,672 @@
+@media(max-width:767.98px) {
+    .wg-about .avatar {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.avatar-circle {
+    border-radius: 50%;
+    border: 5px solid red;
+}
+
+/* 1. Center the Logo Perfectly */
+/* Target Quarto's wrapper link to force strict centering */
+.sidebar-logo-link {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin-bottom: 0.5rem !important; /* Control space between image and icons */
+}
+
+.sidebar-logo {
+    border-radius: 20%;
+    border: 2px solid red;
+    /* Clamp syntax: clamp(MIN, PREFERRED, MAX) */
+    width: clamp(100px, 15vw, 200px);
+    height: clamp(100px, 15vw, 200px);
+    object-fit: cover;
+    display: block !important;
+    margin: 0 auto !important; /* Force image strictly to the middle */
+}
+
+/* 2. Center the Icons and Remove Bottom Margin */
+.sidebar-tools-main {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto 0 auto !important; /* Removed bottom margin */
+    padding: 0 !important;
+}
+
+.sidebar-tools-main .sidebar-tool {
+    padding: 0 0.4rem !important;
+}
+
+/* 3. Pull the Profile Card Closer to Icons */
+.sidebar-profile-card {
+    text-align: center;
+    padding: 0.2rem 0.5rem 1rem 0.5rem; /* Reduced top padding to 0.2rem */
+    margin-top: 0 !important; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08); /* Optional: keeps the clean line at bottom */
+}
+
+.profile-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    /* Uses Quarto's default text color so it flips to white in dark mode */
+    color: var(--bs-body-color, inherit); 
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+    margin-bottom: 0.25rem;
+}
+
+.profile-affiliation {
+    font-weight: 600;
+    font-size: 0.85rem;
+    /* Uses Quarto's muted text color, ensuring it remains visible but subtle */
+    color: var(--bs-secondary-color, #8a939b); 
+    line-height: 1.35;
+}
+
+.interests-box {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Split bullet list into 2 columns inside the interests box */
+.interests-box ul {
+    column-count: 2;
+    column-gap: 1.5rem;
+    padding-left: 1.2rem;
+}
+
+/* ==========================================
+   Timeline Theme Variables
+   ========================================== */
+:root {
+  --tl-primary: var(--bs-primary, #0d6efd);
+  --tl-line-opacity: 0.4;
+  --tl-badge-bg: var(--bs-primary-bg-subtle, rgba(13, 110, 253, 0.12));
+  --tl-badge-text: var(--bs-primary-text-emphasis, #0a58ca);
+  --tl-card-bg: var(--bs-secondary-bg, #f8f9fa);
+  --tl-card-border: var(--bs-border-color, #dee2e6);
+  --tl-minor-card-bg: var(--bs-tertiary-bg, #f1f3f5);
+  --tl-text-muted: var(--bs-secondary-color, #6c757d);
+}
+
+/* Dark Mode Overrides for Quarto */
+[data-bs-theme="dark"],
+.quarto-dark {
+  --tl-primary: #6ea8fe; /* Brighter accent blue for dark backgrounds */
+  --tl-line-opacity: 0.75;
+  --tl-badge-bg: rgba(110, 168, 254, 0.2);
+  --tl-badge-text: #9ec5fe;
+  --tl-card-bg: #212529; /* Elevated dark card background */
+  --tl-card-border: #495057;
+  --tl-minor-card-bg: #2c3035;
+  --tl-text-muted: #adb5bd;
+}
+
+/* ==========================================
+   Main Timeline Spine
+   ========================================== */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem 0;
+  padding-left: 32px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 9px;
+  width: 2px;
+  background-color: var(--tl-primary);
+  opacity: var(--tl-line-opacity);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================
+   Major Events
+   ========================================== */
+.timeline-marker {
+  position: absolute;
+  left: -32px;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--tl-primary);
+  border: 3px solid var(--bs-body-bg);
+  box-shadow: 0 0 0 2px var(--tl-primary);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.timeline-date {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--tl-badge-text);
+  background-color: var(--tl-badge-bg);
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  margin-bottom: 0.6rem;
+  border: 1px solid rgba(110, 168, 254, 0.15);
+}
+
+.timeline-content {
+  background-color: var(--tl-card-bg);
+  border: 1px solid var(--tl-card-border);
+  color: var(--bs-body-color);
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--bs-heading-color, var(--bs-body-color));
+}
+
+.timeline-institution {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--tl-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================
+   Minor Sub-Events (Hover to Expand)
+   ========================================== */
+.timeline-item.minor {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  transition: margin-bottom 0.4s ease-in-out;
+}
+
+.timeline-item.minor:hover {
+  margin-bottom: 1.5rem;
+}
+
+/* Marker Dot for Minor Item */
+.timeline-item.minor .timeline-marker {
+  left: -34px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--bs-body-bg);
+  border: 2px solid var(--tl-primary);
+  box-shadow: 0 0 0 0 rgba(110, 168, 254, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: pulse-minor 2.5s infinite;
+}
+
+@keyframes pulse-minor {
+  0% { box-shadow: 0 0 0 0 var(--tl-badge-bg); }
+  70% { box-shadow: 0 0 0 7px rgba(0, 0, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
+}
+
+.timeline-item.minor:hover .timeline-marker {
+  background-color: var(--tl-primary);
+  transform: scale(1.3);
+  animation: none;
+}
+
+/* Date Badge for Minor Item */
+.timeline-item.minor .timeline-date {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--tl-text-muted);
+  background-color: transparent;
+  border: 1px solid var(--tl-card-border);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.timeline-item.minor .hover-hint {
+  font-weight: normal;
+  font-style: italic;
+  opacity: 0.8;
+  margin-left: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.timeline-item.minor:hover .timeline-date {
+  background-color: var(--tl-minor-card-bg);
+  color: var(--tl-badge-text);
+}
+
+.timeline-item.minor:hover .hover-hint {
+  opacity: 0;
+}
+
+/* Expand Animation Wrapper */
+.timeline-minor-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  padding-top: 0;
+}
+
+.timeline-minor-inner {
+  overflow: hidden;
+}
+
+.timeline-item.minor:hover .timeline-minor-wrapper {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  padding-top: 0.75rem;
+}
+
+.timeline-item.minor .timeline-content {
+  background-color: var(--tl-minor-card-bg);
+  border: 1px dashed var(--tl-card-border);
+  padding: 0.9rem 1.1rem;
+  box-shadow: none;
+  margin-bottom: 5px;
+}
+
+.timeline-item.minor .timeline-content h3 {
+  font-size: 1rem;
+}
+
+
+
+/* ==========================================
+   Skills & Languages Grid
+   ========================================== */
+
+.skills-grid {
+  display: grid;
+  /* Automatically fits items in equal columns (min 130px, max expand) */
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 0.75rem;
+  
+  /* Matches your timeline card theme variables */
+  background-color: var(--tl-card-bg, var(--bs-secondary-bg, #f8f9fa));
+  border: 1px solid var(--tl-card-border, var(--bs-border-color, #dee2e6));
+  border-radius: 12px;
+  
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Hover lift effect */
+/* Card Container Fix */
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Evenly spaces elements vertically */
+  padding: 1.25rem 0.75rem;
+  min-height: 180px; /* Gives the flexbox fixed space to lay out children */
+  
+  background-color: var(--tl-card-bg, var(--bs-secondary-bg, #f8f9fa));
+  border: 1px solid var(--tl-card-border, var(--bs-border-color, #dee2e6));
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Progress Track Bar */
+.skill-progress-bar {
+  width: 100%;
+  height: 8px; /* Increased from 4px for better visibility */
+  min-height: 8px;
+  background-color: rgba(108, 117, 125, 0.2); /* High-contrast fallback */
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.75rem;
+  flex-shrink: 0; /* Prevents flexbox from squishing the bar to 0px height */
+}
+
+/* Progress Inner Fill */
+.skill-progress-fill {
+  display: block;
+  height: 100%;
+  min-height: 8px;
+  background-color: var(--tl-primary, #0d6efd);
+  border-radius: 4px;
+  transition: width 0.6s ease-in-out;
+}
+
+/* Dark mode explicit contrast adjustment */
+[data-bs-theme="dark"] .skill-progress-bar,
+.quarto-dark .skill-progress-bar {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Precise Icon Container */
+.skill-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.skill-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Custom styled badge for Stata (since devicon lacks official Stata logo) */
+.skill-icon.stata-badge {
+  background-color: #1a5b8c;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+/* Text Labels */
+.skill-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--bs-heading-color, var(--bs-body-color));
+  margin-bottom: 0.2rem;
+}
+
+.skill-sub {
+  font-size: 0.75rem;
+  color: var(--tl-text-muted, var(--bs-secondary-color, #6c757d));
+  line-height: 1.2;
+}
+
+/* Customizing Quarto Panel Tabs */
+.panel-tabset .nav-tabs {
+  border-bottom: 2px solid var(--tl-card-border, #dee2e6);
+  margin-bottom: 1.5rem;
+}
+
+.panel-tabset .nav-tabs .nav-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--tl-text-muted, #6c757d);
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.panel-tabset .nav-tabs .nav-link:hover {
+  color: var(--tl-primary, #0d6efd);
+  border-color: transparent;
+}
+
+.panel-tabset .nav-tabs .nav-link.active {
+  color: var(--tl-primary, #0d6efd);
+  background-color: transparent;
+  border-bottom: 2px solid var(--tl-primary, #0d6efd);
+}
+
+/* Custom Badge for QGIS (Official QGIS Green) */
+.skill-icon.qgis-badge {
+  background-color: #589632;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ==========================================
+   Scaled Timeline with LHS Span & RHS Events
+   ========================================== */
+
+.timeline-scaled {
+  position: relative;
+  max-width: 850px;
+  margin: 2rem 0;
+}
+
+/* Solid Main Spine Line at ~25% from left */
+.timeline-scaled::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 130px; /* Aligns with 25% offset on desktop */
+  width: 2px;
+  background-color: var(--tl-primary, #0d6efd);
+  opacity: var(--tl-line-opacity, 0.4);
+  z-index: 1;
+}
+
+/* Major Event Block Container */
+.timeline-block {
+  display: flex;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-block:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================
+   LHS: Dotted Duration Rectangle
+   ========================================== */
+
+.timeline-lhs {
+  flex: 0 0 130px;
+  padding-right: 18px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.duration-rectangle {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed var(--tl-primary, #0d6efd);
+  border-radius: 8px;
+  background-color: var(--tl-badge-bg, rgba(13, 110, 253, 0.05));
+  padding: 0.6rem 0.5rem;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.start-year, .end-year {
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: var(--tl-badge-text, #0d6efd);
+  background-color: var(--tl-card-bg, #ffffff);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--tl-card-border, #dee2e6);
+}
+
+.duration-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--tl-text-muted, #6c757d);
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin: 0.5rem 0;
+}
+
+/* ==========================================
+   RHS: Events Column & Markers
+   ========================================== */
+
+.timeline-rhs {
+  flex: 1;
+  padding-left: 24px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Marker Dot aligned precisely on the solid spine */
+.timeline-marker {
+  position: absolute;
+  left: -31px;
+  top: 12px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--tl-primary, #0d6efd);
+  border: 3px solid var(--bs-body-bg, #ffffff);
+  box-shadow: 0 0 0 2px var(--tl-primary, #0d6efd);
+  z-index: 2;
+}
+
+.timeline-date {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--tl-badge-text, #0d6efd);
+  background-color: var(--tl-badge-bg, rgba(13, 110, 253, 0.12));
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Content Box with OpenStreetMap Overlay */
+.timeline-content {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: var(--tl-card-bg, var(--bs-secondary-bg, #f8f9fa));
+  border: 1px solid var(--tl-card-border, var(--bs-border-color, #dee2e6));
+  color: var(--bs-body-color);
+  border-radius: 8px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-content > * {
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+  background-image: var(--map-url);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.18;
+  filter: grayscale(70%) contrast(120%);
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.timeline-content:hover::before {
+  opacity: 0.32;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.timeline-institution {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--tl-text-muted, #6c757d);
+  margin-bottom: 0.5rem;
+}
+
+/* ==========================================
+   Minor Sub-Events (Hover Reveal inside RHS)
+   ========================================== */
+
+.timeline-item.minor {
+  margin-bottom: 1rem;
+}
+
+.timeline-item.minor .timeline-marker {
+  left: -29px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--bs-body-bg);
+  border: 2px solid var(--tl-primary);
+  box-shadow: none;
+}
+
+.timeline-item.minor .timeline-minor-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 0.4s ease, opacity 0.4s ease;
+}
+
+.timeline-minor-inner {
+  overflow: hidden;
+}
+
+.timeline-item.minor:hover .timeline-minor-wrapper {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  padding-top: 0.5rem;
+}
+
+.timeline-item.minor .timeline-content {
+  background-color: var(--tl-minor-card-bg, #f1f3f5);
+  border: 1px dashed var(--tl-card-border);
+  padding: 0.8rem 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .timeline-scaled::before { left: 90px; }
+  .timeline-lhs { flex: 0 0 90px; }
+  .duration-label { display: none; }
+}
