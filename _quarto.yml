@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "googlec9c10372dd588e56.html"
 
 website:
   sidebar:
