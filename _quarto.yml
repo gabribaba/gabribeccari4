@@ -11,16 +11,16 @@ website:
     logo: IMG_5901.jpg
     tools:
       - icon: github
-        href: https://github.com/yourusername
+        href: https://github.com/gabribaba
         aria-label: GitHub
       - icon: mortarboard
-        href: https://scholar.google.com/citations?user=yourid
+        href: https://scholar.google.com/citations?user=mvg-KiwAAAAJ&hl=it
         aria-label: Google Scholar
       - icon: person-vcard
-        href: https://orcid.org/0000-0000-0000-0000
+        href: https://orcid.org/0000-0003-3995-8008
         aria-label: ORCID
       - icon: linkedin
-        href: https://linkedin.com/in/yourusername
+        href: https://www.linkedin.com/in/gabriele-beccari/
         aria-label: LinkedIn
     contents:
       - text: "<div class='sidebar-profile-card'><div class='profile-title'>Data Scientist</div><div class='profile-affiliation'>Banca Popolare Etica</div></div>"
