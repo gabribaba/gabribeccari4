@@ -4,6 +4,174 @@ toc-depth: 4
 ---
 # Peer reviewed publications {#papers}
 
+#### The Path to Sustainability Consciousness: The Role of Subjective Well-Being and Civic Engagement
+
+::: {.grid .mb-5 .align-items-center}
+
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](publications/itej/italian_economic_journal.jpg){width="150px" height="150px" style="object-fit: contain;" alt="Logo7"}
+:::
+
+<!-- COLONNA DESTRA: Contenuto del paper -->
+::: {.g-col-12 .g-col-md-9}
+
+**Authors:**
+Bacci Silvia, Beccari Gabriele, Bertaccini Bruno, and Pettini Anna.
+
+**Journal:**
+(2026) Italian Economic Journal
+
+**DOI:**
+[https://doi.org/10.1007/s40797-026-00374-5](https://doi.org/10.1007/s40797-026-00374-5)
+
+<details class="mt-2">
+  <summary><strong>Abstract</strong></summary>
+  <p class="mt-2 text-muted">
+    This study examines how subjective well-being and civic engagement are statistically associated with Sustainability Consciousness, a multidimensional construct that encompasses knowingness, attitudes, and behaviours across environmental, social, and economic dimensions. Using structural equation modelling on data from 1040 Italian youngs aged 12–25, we find that both factors play a significant role in shaping sustainability consciousness, particularly through the impact of personal well-being dimensions such as satisfaction with free time and health, as well as engagement with collective movements such as Fridays for the Future. Our findings underscore the importance of integrating psychological well-being and civic participation into sustainability education and policy, thereby reinforcing the role of both individual and collective agency in fostering sustainable mindsets.
+  </p>
+</details>
+
+<details class="mt-2">
+  <summary><strong>Cite</strong></summary>
+  <p class="mt-2 text-muted">
+Bacci, S., Beccari, G., Bertaccini, B., and Pettini, A. (2026). *The Path to Sustainability Consciousness: The Role of Subjective Well-Being and Civic Engagement*. Italian Economic Journal. Doi: [https://doi.org/10.1007/s40797-026-00374-5](https://doi.org/10.1007/s40797-026-00374-5).
+  </p>
+</details>
+
+:::
+
+:::
+
+<hr class="my-4">
+<!-- fine -->
+
+#### Ribellarsi al disumano. Cinquant'anni di La marionetta e il burattino (1974) e Teoria della nascita e castrazione umana (1975)
+
+::: {.grid .mb-5 .align-items-center}
+
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](publications/sdf2026/sdf1_2026.jpg){width="150px" height="150px" style="object-fit: contain;" alt="Logo6"}
+:::
+
+<!-- COLONNA DESTRA: Contenuto del paper -->
+::: {.g-col-12 .g-col-md-9}
+
+**Authors:**
+Panzera Fernando, Milea Gabriella, and Beccari Gabriele.
+
+**Journal:**
+(2026) Il Sogno Della Farfalla, 35(1), 81-114
+
+**DOI:**
+[https://doi.org/10.14663/sdf.v35i1.966](https://doi.org/10.14663/sdf.v35i1.966)
+
+<details class="mt-2">
+  <summary><strong>Abstract</strong></summary>
+  <p class="mt-2 text-muted">
+    The aim of this paper is to reconstruct the historical, political, and cultural context within which Massimo Fagioli developed and published La marionetta e il burattino and Teoria della nascita e castrazione umana, volumes that complete the theoretical trilogy initiated with Death instinct and knowledge (1972). The collected writings derive from presentations made by the authors on April 12, 2025, in Rome, during the first of the "dialogues" promoted by the publisher L'Asino d'oro to celebrate the fiftieth anniversary of these volumes. The contributions explore the contemporary relevance of the Human Birth Theory within the framework of the cultural and social transformations of the second half of the twentieth century, emphasizing Fagioli's critique of traditional psychoanalysis and his engagement with the Italian leftist movements of the 1970s. These reflections aim to highlight how a "rebellion against the inhuman" functions as a dynamic of creativity and transformation, shedding light on the ongoing relationship between psychic reality, human freedom, and social progress.
+  </p>
+</details>
+
+<details class="mt-2">
+  <summary><strong>Cite</strong></summary>
+  <p class="mt-2 text-muted">
+Panzera, F., Milea, G., and Beccari, G. (2026). *Ribellarsi al disumano. Cinquant'anni di La marionetta e il burattino (1974) e Teoria della nascita e castrazione umana (1975)*. Il Sogno Della Farfalla, 35(1), 81-114. Doi: [https://doi.org/10.14663/sdf.v35i1.966](https://doi.org/10.14663/sdf.v35i1.966).
+  </p>
+</details>
+
+:::
+
+:::
+
+<hr class="my-4">
+<!-- fine -->
+
+#### Minibonds and investment: do they promote intangible assets?
+
+::: {.grid .mb-5 .align-items-center}
+
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](publications/policymodeling/X01618938.jpg){width="150px" height="150px" style="object-fit: contain;" alt="Logo5"}
+:::
+
+<!-- COLONNA DESTRA: Contenuto del paper -->
+::: {.g-col-12 .g-col-md-9}
+
+**Authors:**
+Pisicoli Beniamino, Marchionne Francesco, and Beccari Gabriele.
+
+**Journal:**
+(2025) Journal of Policy Modeling, Volume 47, Issue 6, pages 1222-1245
+
+**DOI:**
+[https://doi.org/10.1016/j.jpolmod.2025.09.006](https://doi.org/10.1016/j.jpolmod.2025.09.006)
+
+<details class="mt-2">
+  <summary><strong>Abstract</strong></summary>
+  <p class="mt-2 text-muted">
+    This paper examines whether the 2012 introduction of minibonds, a new market-based financial instrument specifically designed for small and medium enterprises, has promoted intangible investments in Italy. We address selection bias by applying a propensity score matching (PSM) and test our hypotheses using a panel Difference-in-Differences (DID) approach. Our results show that minibond-issuing firms invest in intangibles, a component difficult to finance via bank credit, more than other firms and more than they invest in tangibles. We also find that (i) this effect is persistent over time, (ii) minibond-issuing firms attract additional resources from other intermediaries after issuing minibonds, and (iii) alternative financing, such as minibonds, can reduce financial constraints. Results are corroborated by a large number of robustness exercises, including changes in matching criteria, in the matching algorithms, or when resorting to different estimators.
+  </p>
+</details>
+
+<details class="mt-2">
+  <summary><strong>Cite</strong></summary>
+  <p class="mt-2 text-muted">
+Pisicoli, B., Marchionne, F., and Beccari, G. (2025). *Minibonds and investment: do they promote intangible assets?* Journal of Policy Modeling, Volume 47, Issue 6, pages 1222-1245. Doi: [https://doi.org/10.1016/j.jpolmod.2025.09.006](https://doi.org/10.1016/j.jpolmod.2025.09.006).
+  </p>
+</details>
+
+:::
+
+:::
+
+<hr class="my-4">
+<!-- fine -->
+
+#### The controversial environmental effects of COVID-19 lockdown on quality of air: evidence from Italian municipalities
+
+::: {.grid .mb-5 .align-items-center}
+
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+::: {.g-col-12 .g-col-md-3 .text-center}
+![](publications/jeneco/X01409883.jpg){width="150px" height="150px" style="object-fit: contain;" alt="Logo4"}
+:::
+
+<!-- COLONNA DESTRA: Contenuto del paper -->
+::: {.g-col-12 .g-col-md-9}
+
+**Authors:**
+Becchetti Leonardo, Beccari Gabriele, Conzo Gianluigi, Conzo Pierluigi, De Santis Davide, and Salustri Francesco.
+
+**Journal:**
+(2025) Energy Economics, 151
+
+**DOI:**
+[https://doi.org/10.1016/j.eneco.2025.108904](https://doi.org/10.1016/j.eneco.2025.108904)
+
+<details class="mt-2">
+  <summary><strong>Abstract</strong></summary>
+  <p class="mt-2 text-muted">
+    This article examines the effect of Italy's first wave COVID-19 lockdown on air quality across municipalities by means of a unified panel specification. We use a continuous province-level mobility index from Google and explicitly separate three channels: reduced outdoor mobility, additional residential heating on cold days, and the legally mandated, asynchronous shutdown of centralised heating across climatic zones. Consistent with expectations, restrictions sharply lowered mobility and increased time spent at home. The overall impact on particulate matter is non-linear and reflects the balance between these forces. During March 2020, intensified home heating coincided with an unusual rise in particulate matter relative to the same months in previous years. The effect reversed in April–May when centralised heating was switched off by law, a pattern corroborated by a regression-discontinuity design around shutdown dates. Nitrogen dioxide declined markedly, in line with reduced traffic and other outdoor activities. A time-series decomposition of the fitted values quantifies the daily contributions of the three channels and reconciles the contrasting March versus April–May patterns. We refrain from short-run policy claims that require assumptions on the electricity mix; our results document and quantify the mechanisms through which the lockdown affected air quality.
+  </p>
+</details>
+
+<details class="mt-2">
+  <summary><strong>Cite</strong></summary>
+  <p class="mt-2 text-muted">
+Becchetti, L., Beccari, G., Conzo, G., Conzo, P., De Santis, D., and Salustri, F. (2025). *The controversial environmental effects of COVID-19 lockdown on quality of air: evidence from Italian municipalities*. Energy Economics, 151. Doi: [https://doi.org/10.1016/j.eneco.2025.108904](https://doi.org/10.1016/j.eneco.2025.108904).
+  </p>
+</details>
+
+:::
+
+:::
+
+<hr class="my-4">
+<!-- fine -->
+
 #### Refueling a Quiet Fire: Old Truthers and New Discontent in the Wake of COVID-19
 
 ::: {.grid .mb-5 .align-items-center}
@@ -17,7 +185,7 @@ toc-depth: 4
 ::: {.g-col-12 .g-col-md-9}
 
 **Authors:**
-Beccari Gabriele, Giaccherini Matilde, Kopinska Joanna, Rovigatti Gabriele.
+Beccari Gabriele, Giaccherini Matilde, Kopinska Joanna, and Rovigatti Gabriele.
 
 **Journal:**
 (2024) Demography, 61(5), 1613-1636
