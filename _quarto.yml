@@ -35,6 +35,8 @@ website:
         href: index.qmd#titoliaccademici
       - text: Skills for geeks
         href: index.qmd#geeks
+      - text: Research and Academia
+        href: academia.qmd#papers
       - text: Curriculum vitae et studiorum
         href: cv.qmd
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gabriele Beccari, PhD</title>
+<title>academia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,11 +78,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -257,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">gabribeccari</span></a>
   </li>  
   <li class="nav-item">
@@ -289,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Gabriele Beccari, PhD</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -321,9 +350,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#papers" id="toc-papers" class="nav-link active" data-scroll-target="#papers">Peer reviewed publications</a>
+  <ul>
+  <li><a href="#refueling-a-quiet-fire-old-truthers-and-new-discontent-in-the-wake-of-covid-19" id="toc-refueling-a-quiet-fire-old-truthers-and-new-discontent-in-the-wake-of-covid-19" class="nav-link" data-scroll-target="#refueling-a-quiet-fire-old-truthers-and-new-discontent-in-the-wake-of-covid-19">Refueling a Quiet Fire: Old Truthers and New Discontent in the Wake of COVID-19</a></li>
+  <li><a href="#particulate-matter-and-covid-19-excess-deaths-decomposing-long-term-exposure-and-short-term-effects" id="toc-particulate-matter-and-covid-19-excess-deaths-decomposing-long-term-exposure-and-short-term-effects" class="nav-link" data-scroll-target="#particulate-matter-and-covid-19-excess-deaths-decomposing-long-term-exposure-and-short-term-effects">Particulate matter and Covid-19 excess deaths: Decomposing long-term exposure and short-term effects</a></li>
+  <li><a href="#the-green-lung-national-parks-and-air-quality-in-italian-municipalities" id="toc-the-green-lung-national-parks-and-air-quality-in-italian-municipalities" class="nav-link" data-scroll-target="#the-green-lung-national-parks-and-air-quality-in-italian-municipalities">The Green Lung: National Parks and Air Quality in Italian Municipalities</a></li>
+  <li><a href="#air-quality-and-covid-19-adverse-outcomes-divergent-views-and-experimental-findings" id="toc-air-quality-and-covid-19-adverse-outcomes-divergent-views-and-experimental-findings" class="nav-link" data-scroll-target="#air-quality-and-covid-19-adverse-outcomes-divergent-views-and-experimental-findings">Air quality and COVID-19 adverse outcomes: divergent views and experimental findings</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 <div id="free-palestine">
 
@@ -427,235 +470,141 @@ ul.task-list li input[type="checkbox"] {
 
 </script>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Gabriele Beccari, PhD</h1>
+
+
+
+<section id="papers" class="level1">
+<h1>Peer reviewed publications</h1>
+<section id="refueling-a-quiet-fire-old-truthers-and-new-discontent-in-the-wake-of-covid-19" class="level4">
+<h4 class="anchored" data-anchor-id="refueling-a-quiet-fire-old-truthers-and-new-discontent-in-the-wake-of-covid-19">Refueling a Quiet Fire: Old Truthers and New Discontent in the Wake of COVID-19</h4>
+<div class="grid mb-5 align-items-center">
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+<div class="g-col-12 g-col-md-3 text-center">
+<p><img src="publications/demography2024/m_coverimage.png" style="object-fit: contain;" alt="Logo3" width="150" height="150"></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Hello there! I am a Data Scientist with a strong background in economics, currently working in <em>Data Analytics and Governance</em> for Banca Popolare Etica, the largest Italian bank committed to the principles of Ethical Finance.</p>
-<p>I earned a PhD in Economics and Finance from the “Tor Vergata” University of Rome and completed a postdoctoral fellowship at the Scuola Normale Superiore.</p>
-<p>Originally from Florence and now based in Rome, I also spent one year in Ireland.</p>
-<div class="interests-box callout callout-style-default callout-note callout-titled" title="Interests">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Interests
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Data visualization</li>
-<li>Maps!! <i class="bi bi-map"></i></li>
-<li>Spatial econometrics</li>
-<li>Ecological economics</li>
-</ul>
+<!-- COLONNA DESTRA: Contenuto del paper -->
+<div class="g-col-12 g-col-md-9">
+<p><strong>Authors:</strong> Beccari Gabriele, Giaccherini Matilde, Kopinska Joanna, Rovigatti Gabriele.</p>
+<p><strong>Journal:</strong> (2024) Demography, 61(5), 1613-1636</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1215/00703370-11587755">https://doi.org/10.1215/00703370-11587755</a></p>
+<details class="mt-2">
+<summary>
+<strong>Abstract</strong>
+</summary>
+<p class="mt-2 text-muted">
+This article investigates the factors that contributed to the proliferation of online COVID skepticism on Twitter across Italian municipalities in 2020. We demonstrate that sociodemographic factors were likely to mitigate the emergence of skepticism, whereas populist political leanings were more likely to foster it. Furthermore, pre-COVID anti-vaccine sentiment, represented by “old truthers” on Twitter, amplified online COVID skepticism in local communities. Additionally, exploiting the spatial variation in restrictive economic policies with severe implications for suspended workers in nonessential economic sectors, we find that COVID skepticism spreads more in municipalities significantly affected by the economic lockdown. Finally, the diffusion of COVID skepticism is positively associated with COVID vaccine hesitancy.
+</p>
+</details>
+<details class="mt-2">
+<summary>
+<strong>Cite</strong>
+</summary>
+<p class="mt-2 text-muted">
+Beccari, G., Giaccherini, M., Kopinska, J., Rovigatti, G. (2024). <em>Refueling a Quiet Fire: Old Truthers and New Discontent in the Wake of COVID-19</em>. Demography, 61(5), 1613-1636. Doi: <a href="https://doi.org/10.1215/00703370-11587755">https://doi.org/10.1215/00703370-11587755</a>.
+</p>
+</details>
 </div>
 </div>
-<section id="titoliaccademici" class="level1">
-<h1>Education</h1>
-<div class="timeline-scaled">
-
-  <div class="timeline-block">
-    <!-- LHS: Dotted duration rectangle spanning start-to-end -->
-    <div class="timeline-lhs">
-      <div class="duration-rectangle">
-        <span class="start-year">2012</span>
-        <span class="duration-label">Laurea</span>
-        <span class="end-year">2016</span>
-      </div>
-    </div>
-    
-    <div class="timeline-rhs">
-      <div class="timeline-item minor">
-        <div class="timeline-marker"></div>
-        <div class="timeline-date">2014 - 2015<span class="hover-hint">✦ Hover</span></div>
-        <div class="timeline-minor-wrapper">
-          <div class="timeline-minor-inner">
-            <div class="timeline-content">
-              <h3 class="anchored" data-anchor-id="titoliaccademici">Erasmus+ Exchange Year</h3>
-              <p class="timeline-institution">University College Cork, Éire</p>
-              <p>Focus on macroeconomics and political economy.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-item major">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3 class="anchored">Bachelor's Degree in Political Science</h3>
-          <p class="timeline-institution"><em>Scuola Cesare Alfieri</em><br>
-      University of Florence</p>
-          <p>110/110 Cum Laude</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-block">
-    <div class="timeline-lhs">
-      <div class="duration-rectangle">
-        <span class="start-year">2016</span>
-        <span class="duration-label">MSc Period</span>
-        <span class="end-year">2018</span>
-      </div>
-    </div>
-
-    <div class="timeline-rhs">
-      <div class="timeline-item major">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3 class="anchored">Master of Science in Economics</h3>
-          <p class="timeline-institution"><em>Department of Economics and Finance</em><br>
-      Tor Vergata University of Rome</p>
-      <p>110/110 Cum Laude</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-block">
-    <!-- LHS: Dotted duration rectangle spanning start-to-end -->
-    <div class="timeline-lhs">
-      <div class="duration-rectangle">
-        <span class="start-year">2018</span>
-        <span class="duration-label">PhD period</span>
-        <span class="end-year">2023</span>
-      </div>
-    </div>
-    
-    <div class="timeline-rhs">
-      <div class="timeline-item minor">
-        <div class="timeline-marker"></div>
-        <div class="timeline-date">2022<span class="hover-hint">✦ Hover</span></div>
-        <div class="timeline-minor-wrapper">
-          <div class="timeline-minor-inner">
-            <div class="timeline-content">
-              <h3 class="anchored">Won postdoc fellowship</h3>
-              <p class="timeline-institution">Scuola Normale Superiore</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-item major">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3 class="anchored">PhD in Economics and Finance</h3>
-          <p class="timeline-institution"><em>Department of Economics and Finance</em><br>
-      Tor Vergata University of Rome</p>
-          <p>Excellent Cum Laude</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
+<hr class="my-4">
+<!-- fine -->
 </section>
-<section id="geeks" class="level1">
-<h1>Skills for geeks</h1>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Languages</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Econometric &amp; Spatial Software</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Tools &amp; Publishing</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div class="skills-grid">
-  <!-- Python -->
-  <div class="skill-card">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-    </div>
-    <span class="skill-name">Python</span>
-    <span class="skill-sub">Data Science &amp; ML</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
+<section id="particulate-matter-and-covid-19-excess-deaths-decomposing-long-term-exposure-and-short-term-effects" class="level4">
+<h4 class="anchored" data-anchor-id="particulate-matter-and-covid-19-excess-deaths-decomposing-long-term-exposure-and-short-term-effects">Particulate matter and Covid-19 excess deaths: Decomposing long-term exposure and short-term effects</h4>
+<div class="grid mb-5 align-items-center">
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+<div class="g-col-12 g-col-md-3 text-center">
+<p><img src="publications/jecolecon2022107340/jecolecon.jpg" style="object-fit: contain;" alt="Logo2" width="150" height="150"></p>
+</div>
+<!-- COLONNA DESTRA: Contenuto del paper -->
+<div class="g-col-12 g-col-md-9">
+<p><strong>Authors:</strong> Becchetti Leonardo, Beccari Gabriele, Conzo Gianluigi, Conzo Pierluigi, De Santis Davide, and Salustri Francesco.</p>
+<p><strong>Journal:</strong> (2022) Ecological Economics, 194</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.ecolecon.2022.107340">https://doi.org/10.1016/j.ecolecon.2022.107340</a></p>
+<details class="mt-2">
+<summary>
+<strong>Abstract</strong>
+</summary>
+<p class="mt-2 text-muted">
+We investigate the time-varying effect of particulate matter (<span class="math inline">\(PM\)</span>) on COVID-19 deaths in Italian municipalities. We find that the lagged moving averages of <span class="math inline">\(PM_{2.5}\)</span> and <span class="math inline">\(PM_{10}\)</span> are significantly related to higher excess deceases during the first wave of the disease, after controlling, among other factors, for time-varying mobility, regional and municipality fixed effects, the nonlinear contagion trend, and lockdown effects. Our findings are confirmed after accounting for potential endogeneity, heterogeneous pandemic dynamics, and spatial correlation through pooled and fixed-effect instrumental variable estimates using municipal and provincial data. In addition, we decompose the overall <span class="math inline">\(PM\)</span> effect and find that both pre-COVID long-term exposure and short-term variation during the pandemic matter. In terms of magnitude, we observe that a 1 <span class="math inline">\(\mu g/m^{3}\)</span> increase in <span class="math inline">\(PM_{2.5}\)</span> can lead to up to 20% more deaths in Italian municipalities, which is equivalent to a 5.9% increase in mortality rate.
+</p>
+</details>
+<details class="mt-2">
+<summary>
+<strong>Cite</strong>
+</summary>
+<p class="mt-2 text-muted">
+Becchetti, L., Beccari, G., Conzo, G., Conzo, P., De Santis, D., and Salustri, F. (2022). <em>Particulate matter and Covid-19 excess deaths: Decomposing long-term exposure and short-term effects</em>. Ecological Economics, 194. Doi: <a href="https://doi.org/10.1016/j.ecolecon.2022.107340">https://doi.org/10.1016/j.ecolecon.2022.107340</a>
+</p>
+</details>
+</div>
+</div>
+<hr class="my-4">
+<!-- fine -->
+</section>
+<section id="the-green-lung-national-parks-and-air-quality-in-italian-municipalities" class="level4">
+<h4 class="anchored" data-anchor-id="the-green-lung-national-parks-and-air-quality-in-italian-municipalities">The Green Lung: National Parks and Air Quality in Italian Municipalities</h4>
+<div class="grid mb-5 align-items-center">
+<!-- COLONNA SINISTRA: Immagine del giornale -->
+<div class="g-col-12 g-col-md-3 text-center">
+<p><img src="publications/sustainability2023/big_cover-sustainability.png" style="object-fit: contain;" alt="Logo1" width="150" height="150"></p>
+</div>
+<!-- COLONNA DESTRA: Contenuto del paper -->
+<div class="g-col-12 g-col-md-9">
+<p><strong>Authors:</strong> Becchetti Leonardo, Beccari Gabriele, Conzo Gianluigi, Conzo Pierluigi, De Santis Davide, and Salustri Francesco.</p>
+<p><strong>Journal:</strong> (2023) Sustainability, 15(10), 7802</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.3390/su15107802">https://doi.org/10.3390/su15107802</a></p>
+<details class="mt-2">
+<summary>
+<strong>Abstract</strong>
+</summary>
+<p class="mt-2 text-muted">
+In Italy, 25 percent of the 7903 municipalities include protected areas, while 6.4 percent—which we define as park municipalities—are national parks. Using data from the Copernicus programme databases, we investigated the relationship between park municipalities and the air quality, and we found that the air pollution levels in these areas were much lower than in the rest of the municipalities for the period 2017–2020. The gross difference ranged from 25 to 30 percent lower levels of particulate matter (as measured in terms of both <span class="math inline">\(PM_{10}\)</span> and <span class="math inline">\(PM_{2.5}\)</span>), and three times lower levels of nitrogen dioxide. In our multivariate econometric analysis, we found that part of this difference depends on the lower population density and manufacturing activity in municipalities with national parks. Furthermore, we showed that park municipalities: (i) had progressively reduced levels of particulate matter during the period 2017–2020, and (ii) had a “green lung” function, since in non-park municipalities’ air pollution levels increased with the distance from national parks. Based on empirical evidence on the impact of the main air pollutants on mortality documented in the literature, we calculated that living in park municipalities reduces mortality rates by around 10 percent.
+</p>
+</details>
+<details class="mt-2">
+<summary>
+<strong>Cite</strong>
+</summary>
+<p class="mt-2 text-muted">
+Becchetti, L., Beccari, G., Conzo, G., De Santis, D., Conzo, P., and Salustri, F. (2023). <em>The Green Lung: National Parks and Air Quality in Italian Municipalities</em>. Sustainability, 15(10), 7802. Doi: <a href="https://doi.org/10.3390/su15107802">https://doi.org/10.3390/su15107802</a>
+</p>
+</details>
+</div>
+</div>
+<hr class="my-4">
+</section>
+<section id="air-quality-and-covid-19-adverse-outcomes-divergent-views-and-experimental-findings" class="level4">
+<h4 class="anchored" data-anchor-id="air-quality-and-covid-19-adverse-outcomes-divergent-views-and-experimental-findings">Air quality and COVID-19 adverse outcomes: divergent views and experimental findings</h4>
+<!-- SECONDO PAPER -->
+<div class="grid mb-5 align-items-center">
+<div class="g-col-12 g-col-md-3 text-center">
+<p><img src="publications/envres2020/jenvres.png" style="object-fit: contain;" alt="Logo0" width="150" height="150"></p>
+</div>
+<div class="g-col-12 g-col-md-9">
+<p><strong>Authors:</strong> Becchetti Leonardo, Beccari Gabriele, Conzo Gianluigi, Conzo Pierluigi, De Santis Davide, and Salustri Francesco.</p>
+<p><strong>Journal:</strong> (2021) Environmental Research, 193, 110556</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.envres.2020.110556">https://doi.org/10.1016/j.envres.2020.110556</a></p>
+<details class="mt-2">
+<summary>
+<strong>Abstract</strong>
+</summary>
+<p class="mt-2 text-muted">
+<em>Background</em><br> The questioned link between air pollution and coronavirus disease 2019 (COVID-19) spreading or related mortality represents a hot topic that has immediately been regarded in the light of divergent views. A first “school of thought” advocates that what matters are only standard epidemiological variables (i.e.&nbsp;frequency of interactions in proportion of the viral charge). A second school of thought argues that co-factors such as quality of air play an important role too.<br> <em>Methods</em><br> We analyzed available literature concerning the link between air quality, as measured by different pollutants and a number of COVID-19 outcomes, such as number of positive cases, deaths, and excess mortality rates. We reviewed several studies conducted worldwide and discussing many different methodological approaches aimed at investigating causality associations.<br> <em>Results</em><br> Our paper reviewed the most recent empirical researches documenting the existence of a huge evidence produced worldwide concerning the role played by air pollution on health in general and on COVID-19 outcomes in particular. These results support both research hypotheses, i.e.&nbsp;long-term exposure effects and short-term consequences (including the hypothesis of particulate matter acting as viral “carrier”) according to the two schools of thought, respectively.<br> <em>Conclusions</em><br> The link between air pollution and COVID-19 outcomes is strong and robust as resulting from many different research methodologies. Policy implications should be drawn from a “rational” assessment of these findings as “not taking any action” represents an action itself.
+</p>
+</details>
+<details class="mt-2">
+<summary>
+<strong>Cite</strong>
+</summary>
+<p class="mt-2 text-muted">
+Becchetti, L., Beccari, G., Conzo, G., Conzo, P., De Santis, D., and Salustri, F. (2021). <em>Air quality and COVID-19 adverse outcomes: divergent views and experimental findings</em>. Environmental Research, 193, 110556. Doi: <a href="https://doi.org/10.1016/j.envres.2020.110556">https://doi.org/10.1016/j.envres.2020.110556</a>
+</p>
+</details>
+</div>
+</div>
 
-  <!-- R -->
-  <div class="skill-card">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R">
-    </div>
-    <span class="skill-name">R</span>
-    <span class="skill-sub">Econometrics &amp; Stats</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="skills-grid">
-  <!-- Stata -->
-  <div class="skill-card">
-    <div class="skill-icon stata-badge">
-      <span>STATA</span>
-    </div>
-    <span class="skill-name">Stata</span>
-    <span class="skill-sub">Econometrics &amp; Stats</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
 
-  <!-- QGIS -->
-  <div class="skill-card">
-    <div class="skill-icon qgis-badge">
-      <span>QGIS</span>
-    </div>
-    <span class="skill-name">QGIS</span>
-    <span class="skill-sub">GIS &amp; Spatial Analysis</span>
-    <span class="skill-level-badge level-advanced">Intermediate</span>
-  </div>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div class="skills-grid">
-  <!-- LaTeX / TeX -->
-  <div class="skill-card">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" alt="LaTeX">
-    </div>
-    <span class="skill-name">LaTeX / TeX</span>
-    <span class="skill-sub">Academic Writing</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
-
-  <!-- SQL -->
-  <div class="skill-card">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL">
-    </div>
-    <span class="skill-name">SQL</span>
-    <span class="skill-sub">Databases &amp; Querying</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
-
-  <!-- Git -->
-  <div class="skill-card">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-    </div>
-    <span class="skill-name">Git</span>
-    <span class="skill-sub">Version Control</span>
-    <span class="skill-level-badge level-advanced">Advanced</span>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-
+</section>
 </section>
 
 </main> <!-- /main -->

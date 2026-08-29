@@ -1,0 +1,11 @@
+@article{Panzera_Milea_Beccari_2026,
+title={Ribellarsi al disumano. Cinquant’anni di La marionetta e il burattino (1974) e Teoria della nascita e castrazione umana (1975)},
+volume={35},
+url={https://ilsognodellafarfalla.it/SdF/article/view/966},
+DOI={10.14663/sdf.v35i1.966},
+abstractNote={&lt;p&gt;The aim of this paper is to reconstruct the historical, political, and cultural context within which Massimo Fagioli developed and published La marionetta e il burattino and Teoria della nascita e castrazione umana, volumes that complete the theoretical trilogy initiated with Death instinct and knowledge (1972). The collected writings derive from presentations made by the authors on April 12, 2025, in Rome, during the first of the “dialogues” promoted by the publisher L’Asino d’oro to celebrate the fiftieth anniversary of these volumes. The contributions explore the contemporary relevance of the Human Birth Theory within the framework of the cultural and social transformations of the second half of the twentieth century, emphasizing Fagioli’s critique of traditional psychoanalysis and his engagement with the Italian leftist movements of the 1970s. These reflections aim to highlight how a “rebellion against the inhuman” functions as a dynamic of creativity and transformation, shedding light on the ongoing relationship between psychic reality, human freedom, and social progress.&lt;/p&#38;gt;},
+number={1}, journal={Il sogno della farfalla},
+author={Panzera, Fernando and Milea, Gabriella and Beccari, Gabriele},
+year={2026},
+month={gen.}, pages={81-114} 
+}

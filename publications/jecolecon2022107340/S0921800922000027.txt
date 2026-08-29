@@ -1,0 +1,13 @@
+@article{S0921800922000027,
+title = {Particulate matter and COVID-19 excess deaths: Decomposing long-term exposure and short-term effects},
+journal = {Ecological Economics},
+volume = {194},
+pages = {107340},
+year = {2022},
+issn = {0921-8009},
+doi = {https://doi.org/10.1016/j.ecolecon.2022.107340},
+url = {https://www.sciencedirect.com/science/article/pii/S0921800922000027},
+author = {Leonardo Becchetti and Gabriele Beccari and Gianluigi Conzo and Pierluigi Conzo and Davide {De Santis} and Francesco Salustri},
+keywords = {Particulate matter, COVID-19, Long-term exposure, Excess deaths, Short-term effect, Copernicus},
+abstract = {We investigate the time-varying effect of particulate matter (PM) on COVID-19 deaths in Italian municipalities. We find that the lagged moving averages of PM2.5 and PM10 are significantly related to higher excess deceases during the first wave of the disease, after controlling, among other factors, for time-varying mobility, regional and municipality fixed effects, the nonlinear contagion trend, and lockdown effects. Our findings are confirmed after accounting for potential endogeneity, heterogeneous pandemic dynamics, and spatial correlation through pooled and fixed-effect instrumental variable estimates using municipal and provincial data. In addition, we decompose the overall PM effect and find that both pre-COVID long-term exposure and short-term variation during the pandemic matter. In terms of magnitude, we observe that a 1 μg/m3 increase in PM2.5 can lead to up to 20\% more deaths in Italian municipalities, which is equivalent to a 5.9\% increase in mortality rate.}
+}

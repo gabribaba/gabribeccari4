@@ -1,0 +1,15 @@
+TY  - JOUR
+AU  - Bacci, Silvia
+AU  - Beccari, Gabriele
+AU  - Bertaccini, Bruno
+AU  - Pettini, Anna
+PY  - 2026
+DA  - 2026/04/01
+TI  - The Path to Sustainability Consciousness: The Role of Subjective Well-Being and Civic Engagement
+JO  - Italian Economic Journal
+AB  - This study examines how subjective well-being and civic engagement are statistically associated with Sustainability Consciousness, a multidimensional construct that encompasses knowingness, attitudes, and behaviours across environmental, social, and economic dimensions. Using structural equation modelling on data from 1040 Italian youngs aged 12–25, we find that both factors play a significant role in shaping sustainability consciousness, particularly through the impact of personal well-being dimensions such as satisfaction with free time and health, as well as engagement with collective movements such as Fridays for the Future. Our findings underscore the importance of integrating psychological well-being and civic participation into sustainability education and policy, thereby reinforcing the role of both individual and collective agency in fostering sustainable mindsets.
+SN  - 2199-3238
+UR  - https://doi.org/10.1007/s40797-026-00374-5
+DO  - 10.1007/s40797-026-00374-5
+ID  - Bacci2026
+ER  - 

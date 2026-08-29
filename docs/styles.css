@@ -670,3 +670,23 @@
   .timeline-lhs { flex: 0 0 90px; }
   .duration-label { display: none; }
 }
+
+
+.journal-logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; /* Keeps aspect ratio intact inside 150x150 frame */
+    display: block;
+    margin: 0 auto;      /* Centers image horizontally */
+}
+
+/* Optional: if you want the circular border styling matching avatar-circle */
+.journal-logo-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid red;
+    display: block;
+    margin: 0 auto;
+}

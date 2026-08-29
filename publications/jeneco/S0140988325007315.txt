@@ -1,0 +1,13 @@
+@article{BECCHETTI2025108904,
+title = {The controversial environmental effects of COVID-19 lockdown on quality of air: evidence from Italian municipalities},
+journal = {Energy Economics},
+volume = {151},
+pages = {108904},
+year = {2025},
+issn = {0140-9883},
+doi = {https://doi.org/10.1016/j.eneco.2025.108904},
+url = {https://www.sciencedirect.com/science/article/pii/S0140988325007315},
+author = {Leonardo Becchetti and Gabriele Beccari and Gianluigi Conzo and Pierluigi Conzo and Davide {De Santis} and Francesco Salustri},
+keywords = {COVID-19 lockdown, Particulate matter, Central heating, Air quality, Climatic zone},
+abstract = {This article examines the effect of Italy's first wave COVID-19 lockdown on air quality across municipalities by means of a unified panel specification. We use a continuous province-level mobility index from Google and explicitly separate three channels: reduced outdoor mobility, additional residential heating on cold days, and the legally mandated, asynchronous shutdown of centralised heating across climatic zones. Consistent with expectations, restrictions sharply lowered mobility and increased time spent at home. The overall impact on particulate matter is non-linear and reflects the balance between these forces. During March 2020, intensified home heating coincided with an unusual rise in particulate matter relative to the same months in previous years. The effect reversed in April–May when centralised heating was switched off by law, a pattern corroborated by a regression-discontinuity design around shutdown dates. Nitrogen dioxide declined markedly, in line with reduced traffic and other outdoor activities. A time-series decomposition of the fitted values quantifies the daily contributions of the three channels and reconciles the contrasting March versus April–May patterns. We refrain from short-run policy claims that require assumptions on the electricity mix; our results document and quantify the mechanisms through which the lockdown affected air quality.}
+}

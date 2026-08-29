@@ -1,0 +1,17 @@
+
+@Article{su15107802,
+AUTHOR = {Becchetti, Leonardo and Beccari, Gabriele and Conzo, Gianluigi and De Santis, Davide and Conzo, Pierluigi and Salustri, Francesco},
+TITLE = {The Green Lung: National Parks and Air Quality in Italian Municipalities},
+JOURNAL = {Sustainability},
+VOLUME = {15},
+YEAR = {2023},
+NUMBER = {10},
+ARTICLE-NUMBER = {7802},
+URL = {https://www.mdpi.com/2071-1050/15/10/7802},
+ISSN = {2071-1050},
+ABSTRACT = {In Italy, 25 percent of the 7903 municipalities include protected areas, while 6.4 percent&mdash;which we define as park municipalities&mdash;are national parks. Using data from the Copernicus programme databases, we investigated the relationship between park municipalities and the air quality, and we found that the air pollution levels in these areas were much lower than in the rest of the municipalities for the period 2017&ndash;2020. The gross difference ranged from 25 to 30 percent lower levels of particulate matter (as measured in terms of both PM10 and PM2.5), and three times lower levels of nitrogen dioxide. In our multivariate econometric analysis, we found that part of this difference depends on the lower population density and manufacturing activity in municipalities with national parks. Furthermore, we showed that park municipalities: (i) had progressively reduced levels of particulate matter during the period 2017&ndash;2020, and (ii) had a &ldquo;green lung&rdquo; function, since in non-park municipalities&rsquo; air pollution levels increased with the distance from national parks. Based on empirical evidence on the impact of the main air pollutants on mortality documented in the literature, we calculated that living in park municipalities reduces mortality rates by around 10 percent.},
+DOI = {10.3390/su15107802}
+}
+
+
+
