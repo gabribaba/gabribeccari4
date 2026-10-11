@@ -5,6 +5,8 @@ project:
     - "googlec9c10372dd588e56.html"
 
 website:
+  site-url: "https://gabribeccari.eu"
+  favicon: "images/faviconred.png"
   sidebar:
     style: "docked"
     search: false
